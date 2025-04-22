@@ -1,0 +1,38 @@
+.contact {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  button {
+    padding: 0.75rem 1.5rem;
+    background: var(--accent-color);
+    border: none;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #00c8aa;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    margin: -0.5rem 0 1rem 0;
+    text-align: left;
+  }

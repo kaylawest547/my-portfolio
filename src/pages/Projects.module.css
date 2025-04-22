@@ -1,0 +1,17 @@
+.projectsPage {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #00ffd5;
+  }
+  
+  .projectList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }

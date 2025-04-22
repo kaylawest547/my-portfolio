@@ -1,0 +1,72 @@
+.home {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+    color: white;
+  }
+  
+  .content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  h1 span {
+    color: #00ffd5;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    background-color: #00ffd5;
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #00c8aa;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .content {
+      padding: 1.5rem;
+    }
+  }
+
+  .name {
+    color: #00ffd5;
+  }
+  
+  .typewriter {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #00ffd5;
+  }
